@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/frameLayoutBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_30_transparent">
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/textViewTitle"
+                android:text="교환하시겠습니까?"
+                android:textSize="6.3pt"
+                android:textColor="@color/color_111111"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:id="@+id/textViewMessage1"
+                android:text="주문 내역 : 휴대용 손난로 / 28000point"
+                android:textSize="6.3pt"
+                android:textColor="@color/color_999999"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:id="@+id/textViewMessage2"
+                android:text="신청 후에는 취소나 환불이 어렵습니다.\n주소와 상품을 확인하시고 교환버튼을 눌러주세요."
+                android:textSize="6.3pt"
+                android:textColor="@color/color_999999"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom|end"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginEnd="23dp">
+
+                <TextView
+                    android:id="@+id/textViewLeft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:paddingStart="23dp"
+                    android:paddingEnd="23dp"
+                    android:gravity="center"
+                    android:text="교환"
+                    android:background="@drawable/button_bg1"
+                    android:textColor="@color/white"
+                    android:textSize="7.2pt" />
+
+                <TextView
+                    android:id="@+id/textViewRight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingStart="23dp"
+                    android:paddingEnd="23dp"
+                    android:gravity="center"
+                    android:text="취소"
+                    android:background="@drawable/button_bg2"
+                    android:textColor="@color/color_999999"
+                    android:textSize="7pt" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</FrameLayout>

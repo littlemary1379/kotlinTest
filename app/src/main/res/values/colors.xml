@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--Company Color-->
+    <color name="color_6444b1">#6444b1</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_aaaaaa">#aaaaaa</color>
+    <color name="transparent">#00000000</color>
+    <color name="toast_custom_background">#6443b5</color>
+    <color name="black_30_transparent">#4C000000</color>
+    <color name="color_f2f2f2">#f2f2f2</color>
+    <color name="color_111111">#111111</color>
+    <color name="color_595858">#595858</color>
+    <color name="color_dddddd">#dddddd</color>
+
+
+
+
+</resources>
